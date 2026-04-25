@@ -1,0 +1,9 @@
+Study,Method,R2,Validation,Leakage
+Tsanas et al. (2009),Nonlinear Regression,0.76,Random Split,True
+Grover et al. (2022),Random Forest + GBM,0.91,Random 80/20,True
+Ali et al. (2022),XGBoost (10-fold CV),0.87,Record-level CV,True
+Pahuja & Bhatt (2021),LSTM Deep Learning,0.73,Random Split,True
+Abdellatif et al. (2023),RF+XGB Stacking,0.89,Random CV,True
+Sakar et al. (2019),SVM + Feature Selection,0.79,Subject-wise (LOSO),False
+This Work (Individual),XGBoost + Subject-wise,0.8767,Subject-wise ✓,False
+This Work (Ensemble),Stacking + SHAP XAI,0.7346,Subject-wise GroupKFold ✓,False

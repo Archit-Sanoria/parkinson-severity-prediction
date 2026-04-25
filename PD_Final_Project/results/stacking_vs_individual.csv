@@ -1,0 +1,6 @@
+Model,Type,R2,MAE,RMSE
+XGB,Individual,0.8767,2.34,3.1962
+SVR,Individual,0.785,3.2319,4.221
+RF,Individual,0.7798,3.1303,4.2718
+Stacking Ensemble,Ensemble,0.7346,3.4401,4.6894
+MLP,Individual,0.6024,4.4185,5.7401
